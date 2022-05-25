@@ -1,7 +1,7 @@
 # MeetingRecorder
 
 # Introduction 
-Meeting Recorder Rxpress.js, React.js, MongoDB, Node.js. 
+Meeting Recorder Express.js, React.js, MongoDB, Node.js. 
 
 # Required
 Node.js
