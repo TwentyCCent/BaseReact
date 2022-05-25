@@ -14,11 +14,15 @@ VS Code
 
 - This will install all the dependencies.
 
-2 Launch the API
+2 Create your database MongoDB and configure connection string
+- Create your database on https://www.mongodb.com
+- Configure your connection string in Backend/app.js at line 11 : const connection_string = '...'
+
+3 Launch the API
 - From VS Code open a new terminal at the root of the "Backend" directory 
 - Run the command npm run start
 
-3 Launch app
+4 Launch app
 - From VS Code open a new terminal at the root of the "Frontend" directory 
 - Run the command npm run start
 - The application run on a browser "http://localhost:3000"

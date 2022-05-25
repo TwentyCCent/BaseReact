@@ -8,6 +8,8 @@ const HttpError = require('./models/http-error');
 
 const app = express();
 
+const connection_string = ``;
+
 //Ajouté pour méthode POST
 app.use(bodyParser.json());
 
@@ -52,7 +54,7 @@ app.use((error, req, res, next) => {
 /******************************************************************************************* */
 
 mongoose
-.connect( `mongodb+srv://cda2:ACGesowygPcKa33c@cluster0.ncwlp.mongodb.net/Greta?retryWrites=true&w=majority`, { useNewUrlParser: true, useUnifiedTopology: true, useUnifiedTopology: true })
+.connect(connection_string , { useNewUrlParser: true, useUnifiedTopology: true, useUnifiedTopology: true })
   .then(() => {
     app.listen(5000);
   })
