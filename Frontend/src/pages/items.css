@@ -1,0 +1,30 @@
+h1 {
+    /* font-family: 'Bigelow Rules'; */
+    font-size: 72px;
+    color: #0ccac4;
+  }
+
+  .root-item a {
+    color: #292929;
+    text-decoration: none;
+  }
+  .root-item button {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #292929;
+    background: rgb(32, 136, 136);
+    text-decoration: none;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    width: 80px;
+    margin: 5px; 
+    /* height: 40px; */
+  }
+  
+  .root-item a:hover,
+  .root-item button:hover {
+    background: #2faaa6;
+    /* border-color: #292929; */
+    color: #e9f8f7;
+  }
+  
